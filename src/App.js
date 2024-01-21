@@ -1,46 +1,38 @@
-import React, { useState, useEffect } from "react";
-import "./App.css";
-import Main from "./containers/Main";
-import { ThemeProvider } from "styled-components";
-import { themes } from "./theme";
-import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
-import { settings } from "./portfolio";
-import ReactGA from "react-ga";
+import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import ReactGA from "react-ga4";
+
+import Homepage from "./pages/homepage";
+import About from "./pages/about";
+import Projects from "./pages/projects";
+import Articles from "./pages/articles";
+import ReadArticle from "./pages/readArticle";
+import Contact from "./pages/contact";
+import Notfound from "./pages/404";
+
+import { TRACKING_ID } from "./data/tracking";
+import "./app.css";
 
 function App() {
-  useEffect(() => {
-    if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID, {
-        testMode: process.env.NODE_ENV === "test",
-      });
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
-  }, []);
+	useEffect(() => {
+		if (TRACKING_ID !== "") {
+			ReactGA.initialize(TRACKING_ID);
+		}
+	}, []);
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-  const useCursor = settings.useCustomCursor;
-
-  return (
-    <ThemeProvider theme={themes[theme]}>
-      <>
-        <GlobalStyles />
-        <div>
-          {useCursor ? (
-            <CursorProvider
-              color={themes[theme].secondaryText}
-              ringSize={25}
-              transitionTime={75}
-            >
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            </CursorProvider>
-          ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
-          )}
-        </div>
-      </>
-    </ThemeProvider>
-  );
+	return (
+		<div className="App">
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/articles" element={<Articles />} />
+				<Route path="/article/:slug" element={<ReadArticle />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="*" element={<Notfound />} />
+			</Routes>
+		</div>
+	);
 }
 
 export default App;
