@@ -6,12 +6,7 @@ const meta = {
 
 const introdata = {
     title: "About Dinsmoor Audio",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Based in Richmond Virginia, Dinsmoor Audio is a mixing studio that primarily focuses on intense music such as deathcore, hardcore, and metalcore",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -73,14 +68,14 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "../public/DOE.png",
+        description: "Desert of Embers (Single) - Ill Doctrine",
+        link: "https://open.spotify.com/album/3VJDwcU7ycUyGI386ARNXd",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "../public/RRR.png",
+        description: "Relinquish. Repent. Revolt. (EP) - Ill Doctrine",
+        link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=mFfzwaA4R9CH62_OY7fe2g",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
@@ -136,8 +131,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "joe@dinsmooraudio.com",
+    YOUR_FONE: "(202) - 766 - 2941",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
