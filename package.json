@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "dinsmooraudio.com",
 	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"description": "Source code for dinsmooraudio.com website",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Joseph Dinsmoor",
+		"email": "joe@dinsmooraudio.com",
+		"url": "https://dinsmooraudio.com"
 	},
 	"license": "MIT",
 	"private": true,
