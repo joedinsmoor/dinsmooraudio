@@ -26,7 +26,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Dinsmoor Audio All Rights Reserved.
+						© 2023 dinsmoor.io. All Rights Reserved.
 					</div>
 				</div>
 			</div>
