@@ -1,11 +1,11 @@
 {
-	"name": "dinsmooraudio.com",
+	"name": "dinsmoor.io",
 	"version": "1.1.0",
-	"description": "Source code for dinsmooraudio.com website",
+	"description": "Personal Website",
 	"author": {
 		"name": "Joseph Dinsmoor",
-		"email": "joe@dinsmooraudio.com",
-		"url": "https://dinsmooraudio.com"
+		"email": "jdinsmoor@dinsmoor.pw",
+		"url": "https://dinsmoor.io"
 	},
 	"license": "MIT",
 	"private": true,
@@ -25,7 +25,6 @@
 		"react-router-dom": "^6.11.1",
 		"react-scripts": "5.0.1",
 		"styled-components": "^5.3.10",
-		"util": "^0.12.5",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
