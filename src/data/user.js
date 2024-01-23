@@ -1,75 +1,45 @@
 const INFO = {
 	main: {
-		title: "Joseph Dinsmoor",
-		name: "Joseph Dinsmoor.",
-		email: "jdinsmoor@dinsmoor.pw",
-		resume: "../resume.pdf",
-		logo: "../logo.jpg",
+		title: "Dinsmoor Audio",
+		name: "Dinsmoor Audio",
+		email: "joe@dinsmooraudio.com",
+		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/joedinsmoor",
-		github: "https://github.com/joedinsmoor",
-		linkedin: "https://linkedin.com/in/joseph-dinsmoor",
-		instagram: "https://instagram.com/joedinsmoor",
-		resume: "../resume.pdf"
+		instagram: "https://instagram.com/dinsmooraudio",
 	},
 
 	homepage: {
-		title: "Software Developer specializing in Python and C++",
+		title: "Recording and Mixing Studio started in 2022 in Richmond, Virginia",
 		description:
-			"I am a software developer with expertise in Python, C++, and most other Object Oriented Languages. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Dinsmoor Audio is a recording and mixing studio located in Richmond Virginia, that specializes in metal, metalcore, hardcore, and deathcore. ",
 	},
 
 	about: {
-		title: "I'm Joseph Dinsmoor. I am a Software developer specializing in Python, C++, and most other object oriented languges.",
+		title: "About us:",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. In my spare time, I play guitar in a Deathcore band called Ill Doctrine. I also build tube guitar amplifiers for guitar players across the east coast.",
+			"Dinsmoor Audio was started in a small bedroom in a duplex in Richmond, Virginia. It has sinced moved to be a full band recording and mixing studio, serving the Richmond community. We've worked with local bands as well as solo acts.",
 	},
 
 	projects: [
 		{
-			title: "Swirl Search",
+			title: "Relinquish. Repent. Revolt.",
 			description:
-				"Swirl enterprise search and AI finds and retrieves information from external and internal sources by leveraging traditional search systems. Results are processed with large language models and conversational AI to unlock a wide variety of use cases — from question-answering to insight extraction and workflow automation.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/swirlai/swirl-search",
+				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine",
+			logo: "../RRR.png",
+			linkText: "View EP",
+			link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=3M9buNHwRjGJNdTDoSUPGw",
 		},
 
 		{
-			title: "KaiOS Scraper",
+			title: "Desert of Embers",
 			description:
-				"Custom SQLite Scraper for use with KaiOS SQLite extractions. Used for forensic analysis of burner phones by the Virginia State Police in cyber crime investigations",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/joedinsmoor/KaiOS_Scraper",
-		},
-
-		{
-			title: "AutoRsync",
-			description:
-				"A tool for connecting compatible devices to internal Rsync framework for data preservation. I created this tool for backing up all of my household devices to my server and mirror the backups to a cloud storage instance",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/joedinsmoor/autoRsync",
-		},
-
-		{
-			title: "AutoJLink",
-			description:
-				"Scripts for automatic memory acquisiton using JLink, primarily used for acquiring firmware binaries of ARM cpus",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/joedinsmoor/autojlink",
-		},
-
-		{
-			title: "Auto 3D printer path correction",
-			description:
-				"A program that uses machine vision to compare live images of a 3D printer bed with the associated CAD file",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png",
-		},
+				"A new single by the Richmond Deathcore band Ill Doctrine",
+			logo: "../DOE.png",
+			linkText: "View Song",
+			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
+		}
 	],
 };
 
