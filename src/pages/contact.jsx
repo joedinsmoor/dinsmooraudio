@@ -45,8 +45,7 @@ const Contact = () => {
 
 						<div className="subtitle contact-subtitle">
 							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
+							me. Please reach out if you are looking to get started with Dinsmoor Audio. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{""}
 							<a href={`mailto:${INFO.main.email}`}>
@@ -60,11 +59,11 @@ const Contact = () => {
 							possible. Finally, if you prefer to connect on
 							social media, you can find me at{" "}
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.twitter}
+								{INFO.socials.instagram}
 							</a>
 							.
 						</div>
