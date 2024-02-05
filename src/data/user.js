@@ -39,6 +39,24 @@ const INFO = {
 			logo: "../DOE.png",
 			linkText: "View Song",
 			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
+		},
+
+		{
+			title: "Bareknuckle Boxing",
+			description:
+				"An instrumental progressive metal track by Christian Bachman",
+			logo: "../BKB.png",
+			linkText: "View Song",
+			link: "https://open.spotify.com/track/1CTUynGQ0fW61ARAyCsUKw?si=b343fee7dfc64f59",
+		},
+
+		{
+			title: "Over the Creek",
+			description:
+				"A second addition to the library of instrumental progressive metal guitarist Christian Bachman",
+			logo: "../OTC.png",
+			linkText: "View Song",
+			link: "https://open.spotify.com/track/4mD1YmqfsRlZ0vra6IV5HE?si=ee7c509940984851",
 		}
 	],
 };
