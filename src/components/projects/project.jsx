@@ -18,6 +18,7 @@ const Project = (props) => {
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>
+						<div className="project-release-date">{releasedate}</div>
 						<div className="project-link">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
