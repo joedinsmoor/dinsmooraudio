@@ -24,6 +24,16 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Desert of Embers",
+			description:
+				"A new single by the Richmond Deathcore band Ill Doctrine",
+			releasedate: "2024",
+			logo: "../DOE.png",
+			linkText: "View Song",
+			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
+		},
+		
+		{
 			title: "Relinquish. Repent. Revolt.",
 			description:
 				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine",
@@ -33,15 +43,6 @@ const INFO = {
 			link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=3M9buNHwRjGJNdTDoSUPGw",
 		},
 
-		{
-			title: "Desert of Embers",
-			description:
-				"A new single by the Richmond Deathcore band Ill Doctrine",
-			releasedate: "2024",
-			logo: "../DOE.png",
-			linkText: "View Song",
-			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
-		},
 
 		{
 			title: "Bareknuckle Boxing",
