@@ -26,7 +26,8 @@ const INFO = {
 		{
 			title: "Relinquish. Repent. Revolt.",
 			description:
-				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine - Released 2023",
+				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine",
+			releasedate: "2024",
 			logo: "../RRR.png",
 			linkText: "View EP",
 			link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=3M9buNHwRjGJNdTDoSUPGw",
@@ -35,7 +36,8 @@ const INFO = {
 		{
 			title: "Desert of Embers",
 			description:
-				"A new single by the Richmond Deathcore band Ill Doctrine - Released 2024",
+				"A new single by the Richmond Deathcore band Ill Doctrine",
+			releasedate: "2024",
 			logo: "../DOE.png",
 			linkText: "View Song",
 			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
@@ -44,7 +46,8 @@ const INFO = {
 		{
 			title: "Bareknuckle Boxing",
 			description:
-				"An instrumental progressive metal track by Christian Bachman - Released 2022",
+				"An instrumental progressive metal track by Christian Bachman",
+			releasedate:"2022",
 			logo: "../BKB.png",
 			linkText: "View Song",
 			link: "https://open.spotify.com/track/1CTUynGQ0fW61ARAyCsUKw?si=b343fee7dfc64f59",
@@ -53,7 +56,8 @@ const INFO = {
 		{
 			title: "Over the Creek",
 			description:
-				"A second addition to the library of instrumental progressive metal guitarist Christian Bachman - Released 2022",
+				"A second addition to the library of instrumental progressive metal guitarist Christian Bachman",
+			releasedate: "2022",
 			logo: "../OTC.png",
 			linkText: "View Song",
 			link: "https://open.spotify.com/track/4mD1YmqfsRlZ0vra6IV5HE?si=ee7c509940984851",
