@@ -47,6 +47,10 @@
 	color: var(--secondary-color);
 }
 
+.project-release {
+	color: var(--secondary-color);
+}
+
 .project-link {
 	display: flex;
 	align-items: center;
