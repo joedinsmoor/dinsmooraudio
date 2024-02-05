@@ -8,6 +8,7 @@ const INFO = {
 
 	socials: {
 		instagram: "https://instagram.com/dinsmooraudio",
+		email: "joe@dinsmooraudio.com"
 	},
 
 	homepage: {
