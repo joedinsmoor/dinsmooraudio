@@ -49,6 +49,9 @@ const Gear = () => {
                                 Peavey 5150II
                                 Mesa Dual Recitifer Revision F
                                 Dinsmoor Amplification Mark 1
+								Marshall JVM205H
+								Mesa Triple Rectifier 3 Channel Non Multi Watt
+								Fryette Deliverance
                                 Mesa Rectifier Oversized 4x12 w/ UK V30s
                                 Eminence Custom 2x12 w/ Black Label G-12T75s
                             Preamps and Converters:
