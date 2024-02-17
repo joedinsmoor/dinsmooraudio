@@ -1,0 +1,76 @@
+@import "../../../data/styles.css";
+
+.gear {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	height: 100%;
+}
+
+.gear a {
+	text-decoration: none;
+}
+
+.gear:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.gear:hover .gear-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.gear-container {
+	padding: 30px;
+}
+
+.gear-logo {
+	width: 250px;
+}
+
+.gear-logo img {
+	width: 100%;
+}
+
+.gear-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.gear-description {
+	color: var(--secondary-color);
+}
+
+.gear-release {
+	color: var(--secondary-color);
+}
+
+.gear-link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.gear-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.gear-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+	.gear {
+		height: 300px;
+	}
+}
