@@ -54,6 +54,8 @@ const Gear = () => {
 								Fryette Deliverance
                                 Mesa Rectifier Oversized 4x12 w/ UK V30s
                                 Eminence Custom 2x12 w/ Black Label G-12T75s
+								Full Neural DSP Plugin Suite
+								STL Tones Tonehub
                             Preamps and Converters:
                                 Universal Audio Apollo Twin
                                 Focusrite Clarett 8Pre
