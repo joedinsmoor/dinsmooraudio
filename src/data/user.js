@@ -25,6 +25,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Hypocrite",
+			description:
+				"The debut single of Richmond Hardcore duo, Unforgotten",
+			releasedate: "2024",
+			logo: "../hypocrite.png",
+			linkText: "View Single",
+			link: "https://open.spotify.com/track/0HTDioW3kLuMX8hwJzX3x0?si=6cea8c8a544c4296",
+		},
+		{
 			title: "Desert of Embers",
 			description:
 				"A new single by the Richmond Deathcore band Ill Doctrine",
