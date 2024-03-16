@@ -13,7 +13,7 @@ const Band = () => {
     return (
         <div className="band">
             <div className="band">
-                <iframe style={divstyle} src="https://open.spotify.com/embed/artist/2YafwQJGtoEn81X6wPvjdh?utm_source=generator&theme=0" width="100%" height="360" frameBorder="1000" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="spotify"></iframe>
+                <iframe style={divstyle} src="https://open.spotify.com/embed/playlist/0BHQVkpiCHdvSau5ap6RaR?utm_source=generator&theme=0" width="100%" height="360" frameBorder="1000" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="spotify"></iframe>
             </div>
         </div>
     );
