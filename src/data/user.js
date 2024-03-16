@@ -8,6 +8,7 @@ const INFO = {
 
 	socials: {
 		instagram: "https://instagram.com/dinsmooraudio",
+		email: "joe@dinsmooraudio.com"
 	},
 
 	homepage: {
@@ -24,15 +25,14 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Relinquish. Repent. Revolt.",
+			title: "Hypocrite",
 			description:
-				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine",
+				"The debut single of Richmond Hardcore duo, Unforgotten",
 			releasedate: "2024",
-			logo: "../RRR.png",
-			linkText: "View EP",
-			link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=3M9buNHwRjGJNdTDoSUPGw",
+			logo: "../hypocrite.png",
+			linkText: "View Single",
+			link: "https://open.spotify.com/track/0HTDioW3kLuMX8hwJzX3x0?si=6cea8c8a544c4296",
 		},
-
 		{
 			title: "Desert of Embers",
 			description:
@@ -42,6 +42,17 @@ const INFO = {
 			linkText: "View Song",
 			link: "https://open.spotify.com/track/6DNjA6O6guuwNAdkuCEonB?si=d7723d2c42914650",
 		},
+		
+		{
+			title: "Relinquish. Repent. Revolt.",
+			description:
+				"The first EP of the Richmond, Virginia deathcore band Ill Doctrine",
+			releasedate: "2024",
+			logo: "../RRR.png",
+			linkText: "View EP",
+			link: "https://open.spotify.com/album/3mDqbcYZjdmw8BQ4xIcQTl?si=3M9buNHwRjGJNdTDoSUPGw",
+		},
+
 
 		{
 			title: "Bareknuckle Boxing",
